@@ -12,7 +12,8 @@ export default initializeAuthentication;
 /* 
 steps for authentication
 ------------------
-Initial Setu[
+Initial Setup
+    Step - 1:
 
     1. Firebase: create Project
     2. Create web app
@@ -23,3 +24,9 @@ Initial Setu[
 
 */
 
+/* 
+Step -2:
+
+1. Create Login Component
+2. Create Register Component
+3. Create route for login and register */
