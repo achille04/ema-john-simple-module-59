@@ -21,25 +21,41 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
+
           <Route exact path="/">
+
             <Shop></Shop>
+
           </Route>
+
           <Route path="/shop">
+
             <Shop></Shop>
+
           </Route>
+
           <Route path="/review">
+
             <OrderReview></OrderReview>
+
           </Route>
+
           <PrivateRoute path="/shipping">
 
             <Shipping></Shipping>
 
           </PrivateRoute>
+
           <PrivateRoute path="/inventory">
+
             <Inventory></Inventory>
+
           </PrivateRoute>
+
           <PrivateRoute path="/placeorder">
+
             <PlaceOrder></PlaceOrder>
+
           </PrivateRoute>
 
           <Route path="/login">
@@ -47,6 +63,7 @@ function App() {
           <Login></Login>
 
           </Route>
+
           <Route path="/register">
 
           <Register></Register>
@@ -54,7 +71,9 @@ function App() {
           </Route>
 
           <Route path="*">
+
             <NotFound></NotFound>
+
           </Route>
         </Switch>
       </Router>
