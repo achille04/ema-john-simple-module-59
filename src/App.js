@@ -8,10 +8,14 @@ import OrderReview from './components/OrderReview/OrderReview';
 import PlaceOrder from './components/PlaceOrder/PlaceOrder';
 import Register from './components/Register/Register';
 import Shop from './components/Shop/Shop';
+import AuthProvider from './context/AuthProvider';
 
 function App() {
   return (
     <div>
+      
+      <AuthProvider>
+
       <Router>
         <Header></Header>
         <Switch>
@@ -47,6 +51,8 @@ function App() {
           </Route>
         </Switch>
       </Router>
+
+      </AuthProvider>
 
     </div>
   );

@@ -19,7 +19,7 @@ const Register = () => {
 
                 </form>
 
-                <p>Already have an Account?  <Link to="/login">Login</Link></p> <br />
+                <p>Already have an Account?  <Link to="/login">Log in</Link></p> <br />
 
                 <div>--------------------or----------------------</div> <br />
 
